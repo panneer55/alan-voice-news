@@ -15,8 +15,6 @@ function App() {
     if (alanInstance != null) return;
     setAlanInstance(
       alanBtn({
-        bottom: "15px",
-        left: "50%",
         key: process.env.REACT_APP_ALAN_KEY,
         onCommand: ({ command, articles, number }) => {
           if (command === "newHeadlines") {
