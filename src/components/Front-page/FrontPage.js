@@ -17,8 +17,8 @@ const infoCards = [
   {
     color: "#283593",
     title: "News by Sources",
-    info: "CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
-    text: "Give me the news from CNN",
+    info: "ABC News, BBC News, Business insider, CNN, Google news ...",
+    text: "Give me the news from BBC News",
   },
 ];
 
@@ -34,7 +34,7 @@ function FrontPage() {
               <p>{infoCard.info || null}</p>
             </div>
             <div className={classes.categoriesText}>
-              <strong>Try Saying...</strong>
+              <strong>Try Saying</strong>
               <p>{infoCard.text}</p>
             </div>
           </div>
